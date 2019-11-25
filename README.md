@@ -4,8 +4,7 @@ Refactored Code for Stock Analysis
 * In our original code we idendified the names of the stocks and used it as a filter for the 'for'(i) loops.
    * Underneath these loops we run another 'for'(j) loops that went from the beggining-row to the end-row of our data set.
 
-* Our data set is comprised of 3012 rows. A lot of our secondary 'for'(j)loops are unnecessary because it does not carry the  
-  value of that stock (on that particular 'for'(i) loop). 
+* Our data set is comprised of 3012 rows. A lot of our secondary 'for'(j)loops are unnecessary because it does not carry the value of that stock (on that particular 'for'(i) loop). 
    * Thousands of row are not included in every instance of the 'for'(i)loop, or for every stock. 
    * We have 12 stocks, so tens and of thousands of commands are not useful for the operation.
      
