@@ -1,2 +1,2 @@
-# Module2
+# Challenge
 Refactored Code for Stock Analysis
